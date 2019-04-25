@@ -3,7 +3,9 @@ import './Drawer.css';
 import Backdrop from '../../UI/Backdrop/Backdrop';
 
 const links = [
-    1,2,3
+    'Logical',
+    'Historical',
+    'Math'
 ]
 
 class Drawer extends Component {
@@ -13,7 +15,7 @@ class Drawer extends Component {
             return(
             
                 <li key={index}>
-                    <a>Link {link}</a>
+                    <a>{link} Test</a>
                 </li>
                 
             )
